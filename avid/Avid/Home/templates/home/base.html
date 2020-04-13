@@ -1,12 +1,32 @@
+{% load bootstrap4 %}
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Avid Animations</title>
+    {% endif %}
+    {% block styles %}
+        {% bootstrap_css %}
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    {% endblock %}
 </head>
 <body>
+    {% include 'home/nvbar.html'%}
     {% block content %}
+    {% endblock %}
+
+    {% block scripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="{static 'js/jquery.min.js'}"></script>
+        <script src="{static 'js/skel.min.js'}"></script>
+        <script src="{static 'js/util.js'}"></script>
+        <script src="{static 'js/main.js'}"></script>
+        {% bootstrap_javascript %}
     {% endblock %}
 </body>
 </html>
