@@ -362,3 +362,85 @@
 
 		}
 
+		.case-study {
+			padding-top: 80px;
+			background: whitesmoke;
+		  }
+		  
+		  .case-study .content h4 {
+			padding-bottom: 13px;
+			font-family: "Roboto", sans-serif;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #facd8a;
+			font-weight: bold;
+		  }
+		  
+		  .case-study .content p {
+			font-size: 16px;
+			color: black;
+		  }
+		  
+		  
+		  /* Case Study Title */
+		  .box-subtitle,
+		  .box-title {
+			margin: 0;
+		  }
+		  
+		  .box-subtitle {
+			letter-spacing: 2px;
+			padding: 17px 0 20px;
+			font-family: "Poppins", sans-serif;
+			text-transform: uppercase;
+		  }
+		  
+		  /* Case Study Description Style */
+		  .case-study-content {
+			padding-top: 58px;
+			padding-bottom: 90px;
+		  }
+		  
+		  .case-study-content:nth-child(odd) {
+			padding-top: 100px;
+			padding-bottom: 180px;
+			background:whitesmoke;
+		  }
+		  .counter_area {
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			padding: 135px 0 105px 0;
+		  }
+		  
+		  /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
+		  .counter_area .single_counter {
+			margin-bottom: 30px;
+		  }
+		  
+		  /* line 11, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
+		  .counter_area .single_counter h3 {
+			margin-top: 40px;
+			margin-bottom: 15px;
+		  }
+		  
+		  /* line 14, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
+		  .counter_area .single_counter h3 span {
+			font-size: 46px;
+			font-weight: 300;
+			color: #fff;
+		  }
+		  
+		  /* line 20, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
+		  .counter_area .single_counter p {
+			font-weight: 15px;
+			color: #E8E8E8;
+			margin-bottom: 0;
+		  }
+		  
+		  /* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
+		  .counter_bg_1 {
+			background-image: url(/static/imgs/counter.jpg);
+		  }
+		  
+
